@@ -9,7 +9,6 @@ var Main = (props) => {
       <div>
         <div>
           {props.children}
-          <h1 className="text-center">This is the Main page.</h1>
         </div>
       </div>
     </div>

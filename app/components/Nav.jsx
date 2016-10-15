@@ -11,19 +11,19 @@ var Nav = () => {
               <IndexLink to="/" activeClassName="active-link" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
             </li>
             <li>
-              <Link to="/" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Menu</Link>
+              <Link to="menu" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Menu</Link>
             </li>
             <li>
-              <Link to="/" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Catering</Link>
+              <Link to="catering" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Catering</Link>
             </li>
             <li>
-              <Link to="/" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Specials</Link>
+              <Link to="specials" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Specials</Link>
             </li>
             <li>
-              <Link to="/" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>About</Link>
+              <Link to="about" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
             <li>
-              <Link to="/" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Contact</Link>
+              <Link to="contact" activeClassName="active-link"  activeStyle={{fontWeight: 'bold'}}>Contact</Link>
             </li>
           </ul>
         </div>
