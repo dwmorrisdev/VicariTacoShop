@@ -2,7 +2,7 @@ var React = require('react');
 var Nav = require('Nav');
 
 
-var Main = () => {
+var Main = (props) => {
   return (
     <div >
       <Nav/>

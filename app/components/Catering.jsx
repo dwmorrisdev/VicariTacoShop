@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Catering = (props) => {
+var Catering = () => {
   return (
     <div >
       <h1 className="text-center page-title">Catering</h1>

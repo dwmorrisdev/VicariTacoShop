@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Menu = (props) => {
+var Menu = () => {
   return (
     <div >
       <h1 className="text-center page-title">Menu</h1>

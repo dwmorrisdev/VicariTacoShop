@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Carosel = (props) => {
+var Carosel = () => {
   return(
     <div>
       <h1> This is the Carosel. use react-slick</h1>

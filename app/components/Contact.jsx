@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Contact = (props) => {
+var Contact = () => {
   return (
     <div >
       <h1 className="text-center page-title">Contact</h1>
