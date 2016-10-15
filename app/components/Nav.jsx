@@ -38,3 +38,5 @@ var Nav = () => {
       </div>
     );
 };
+
+module.exports = Nav;
