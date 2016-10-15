@@ -14,16 +14,16 @@ var Contact = React.createClass({
     return (
       <div >
         <h1 className="text-center page-title">Contact</h1>
-        <div>
+        <div className="text-center">
           <h3>Physical Address:</h3>
-          <p>Vicari Taco Shop<br/>
+          <p>V Taco<br/>
              someNumber Cruise St<br/>
              Corinth, MS 38834
           </p>
           <h3>Call:</h3>
-          <p>662-xxx-xxxx</p>
+          <p><a href="tel:xxx-xxx-xxxx">662-xxx-xxxx</a></p>
           <h3>Email:</h3>
-          <p>yadayada@thisplace.com</p>
+          <p><a href="mailto:thisguy@yadayada.com">yadayada@thisplace.com</a></p>
         </div>
         <div>
           <ContactForm/>

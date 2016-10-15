@@ -9,8 +9,7 @@ var ContactForm = React.createClass({
         <div>
           <h3>Send us a message.</h3>
           <form onSubmit={this.onFormSubmit}>
-            <input type="text" placeholder="First Name" ref="fname"/>
-            <input type="text" placeholder="Last Name" ref="lname"/>
+            <input type="text" placeholder="Name" ref="uname"/>
             <input type="email" placeholder="iam@email.com" ref="email"/>
             <input type="textarea" placeholder="Enter message here." ref="contactMessage"/>
             <button className="button">Submit</button>

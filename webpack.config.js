@@ -31,7 +31,9 @@ module.exports = {
       About: 'app/components/About.jsx',
       Menu: 'app/components/Menu.jsx',
       Specials: 'app/components/Specials.jsx',
-      ContactForm: 'app/components/ContactForm.jsx'
+      ContactForm: 'app/components/ContactForm.jsx',
+      Footer: 'app/components/Footer.jsx',
+      NavFoot: 'app/components/NavFoot.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

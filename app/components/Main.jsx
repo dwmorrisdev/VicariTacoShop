@@ -1,5 +1,6 @@
 var React = require('react');
 var Nav = require('Nav');
+var Footer = require('Footer');
 
 
 var Main = (props) => {
@@ -11,6 +12,7 @@ var Main = (props) => {
           {props.children}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

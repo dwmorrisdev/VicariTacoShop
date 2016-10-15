@@ -6,7 +6,7 @@ var Nav = () => {
       <div className="top-bar">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menu-text">Vicari Taco Logo Here</li>
+            <li className="menu-text">V Taco Logo Here</li>
             <li>
               <IndexLink to="/" activeClassName="active-link" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
             </li>
@@ -30,8 +30,10 @@ var Nav = () => {
         <div className="top-bar-right">
           <ul clasName="menu">
             <li className="menu-text">
-              <p>Call: xxx-xxx-xxxx</p>
-              <p>follow us: fb   T</p>
+              <p>Call: <a href="tel:xxx-xxx-xxxx">xxx-xxx-xxxx</a></p>
+              <p>follow us:
+                <a href="https://www.facebook.com/Vicari-Italian-Grill-197021270344570/?fref=ts" target="_blank">fb</a>
+                <a href="http://www.twitter.com" target="_blank">T</a></p>
             </li>
           </ul>
         </div>
